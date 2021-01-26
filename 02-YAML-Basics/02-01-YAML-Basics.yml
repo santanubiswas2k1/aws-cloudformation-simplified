@@ -1,21 +1,22 @@
 
 #Key Value Pairs
-Name: Dave
-Age: 29
-Gpa: 8.5
-Occupation: Engineer
-State: 'New Jersey'
-AboutMe: "I am a software engineer"
-Male: true
-DateOfBith: 1990-09-15T15:53:00
-PoliceCases: null
+Name: Dave # Key Value Pairs
+# Data Type
+Age: 29 # Integer
+Gpa: 8.5 # Floating point numbers
+Occupation: Engineer # Strings without quote
+State: 'New Jersey' # Strings with quote for special character
+AboutMe: "I am a software engineer" # Strings with quote for special character
+Male: true # Boolean true or flase
+DateOfBith: 1990-09-15T15:53:00 # Dates - format ISO 8601
+PoliceCases: null # Null Values
 
 #YAML Lists
 Persons:
-  - Dave
+  - Dave # Block sequesnce
   - John
   - Mike  
-Persons: [Dave, John, Mike]
+Persons: [Dave, John, Mike] # flow sequesnce
 
 #YAML Dictionary
 Dave:
